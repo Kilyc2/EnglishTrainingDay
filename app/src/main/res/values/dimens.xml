@@ -1,0 +1,41 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="text_exercises_left_margin">25dp</dimen>
+
+    <dimen name="activity_exercise_top_margin">40dp</dimen>
+
+    <dimen name="navigation_drawer_width">240dp</dimen>
+
+    <dimen name="size_item">48dp</dimen>
+
+    <dimen name="textsize_item">18sp</dimen>
+    <dimen name="textsize_item_S">14sp</dimen>
+    <dimen name="textsize_item_L">22sp</dimen>
+
+    <dimen name="groupItem_horizontal_margin">28dp</dimen>
+    <dimen name="groupItem_vertical_margin">10dp</dimen>
+
+    <dimen name="childrenItem_horizontal_margin">28dp</dimen>
+    <dimen name="childrenItem_vertical_margin">5dp</dimen>
+
+    <dimen name="button_round_size">60dp</dimen>
+    <dimen name="border_button">1dp</dimen>
+
+    <dimen name="button_rectangle_size">200dp</dimen>
+    <dimen name="radius_corner">20dp</dimen>
+
+    <dimen name="size_levelbutton">100dp</dimen>
+
+    <dimen name="textWording_height">38dp</dimen>
+
+    <dimen name="tipBox_width">350dp</dimen>
+    <dimen name="tipBox_height">180dp</dimen>
+    <dimen name="tipBox_margin">10dp</dimen>
+
+    <dimen name="graph_margin_top">10dp</dimen>
+    <dimen name="graph_margin_bottom">75dp</dimen>
+
+</resources>

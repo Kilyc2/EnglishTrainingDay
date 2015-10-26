@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">English Training Day</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_profile">Profile</string>
+    <string name="action_reset_score">Reset score</string>
+    <string name="action_update_lessons">Update lessons</string>
+    <string name="action_change_level">Change level</string>
+    <string name="text_updating_lessons">Updating lessons</string>
+    <string name="text_wait">please wait&#8230;</string>
+    <string name="title_exercise_well_done">Well done!</string>
+    <string name="title_exercise_miss">Miss…</string>
+    <string name="button_exercise_next">NEXT</string>
+    <string name="title_activity_score">Profile Score</string>
+    <string name="title_activity_results">Daily Results</string>
+    <string name="title_level">Select your level</string>
+
+    <string name="level_a1">A1</string>
+    <string name="level_a2">A2</string>
+    <string name="level_b1">B1</string>
+    <string name="level_b2">B2</string>
+    <string name="level_c1">C1</string>
+    <string name="level_c2">C2</string>
+
+    <string name="button_continue">PRESS TO CONTINUE</string>
+    <string name="title_upgrade_fail">SORRY&#8230;</string>
+    <string name="text_upgrade_fail">Try again when you learn more English</string>
+    <string name="title_upgrade_success">GREAT!</string>
+    <string name="text_upgrade_success">You\'ve unblocked the level!</string>
+    <string name="button_upgrade_close">CLOSE</string>
+
+    <string name="text_exercises_lesson">Exercises Lesson </string>
+    <string name="text_completed"> completed!</string>
+    <string name="text_exercises_done_today">Exercises done today: </string>
+    <string name="text_correct_exercises">Correct exercises: </string>
+    <string name="text_total_score">Total score: </string>
+    <string name="text_weekly_progression">Weekly progression</string>
+
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.tfc.englishtrainingday">
+
+    <permission
+        android:name="com.example.gcm.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.example.gcm.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_etd"
+        android:label="@string/app_name"
+        android:theme="@style/EnglishTrainingDayTheme">
+
+        <activity
+            android:name="com.android.tfc.englishtrainingday.activities.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.android.tfc.englishtrainingday.activities.LevelActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.android.tfc.englishtrainingday.activities.GrammarActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+
+        <activity
+            android:name="com.android.tfc.englishtrainingday.activities.ScoreActivity"
+            android:label="@string/title_activity_score"
+            android:parentActivityName="com.android.tfc.englishtrainingday.activities.GrammarActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.tfc.englishtrainingday.activities.GrammarActivity" />
+        </activity>
+
+        <activity
+            android:name=".activities.ExercisesActivity"
+            android:parentActivityName="com.android.tfc.englishtrainingday.activities.GrammarActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.tfc.englishtrainingday.activities.GrammarActivity" />
+        </activity>
+
+        <activity
+            android:name="com.android.tfc.englishtrainingday.activities.ResultsActivity"
+            android:label="@string/title_activity_results"
+            android:parentActivityName="com.android.tfc.englishtrainingday.activities.GrammarActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.android.tfc.englishtrainingday.activities.GrammarActivity" />
+        </activity>
+
+        <provider
+            android:name=".model.EtdContentProvider"
+            android:authorities="com.android.tfc.englishtrainingday.contentprovider" />
+
+    </application>
+
+</manifest>

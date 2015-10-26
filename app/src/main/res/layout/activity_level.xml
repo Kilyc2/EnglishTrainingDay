@@ -1,0 +1,292 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.android.tfc.englishtrainingday.activities.LevelActivity">
+
+    <RelativeLayout
+        android:id="@+id/div_button_level"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblLevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:onClick="onClick"
+            android:text="@string/title_level"
+            android:textSize="@dimen/textsize_item_L" />
+
+        <Button
+            android:id="@+id/buttonLevelC1"
+            android:layout_width="@dimen/size_levelbutton"
+            android:layout_height="@dimen/size_levelbutton"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dp"
+            android:layout_marginStart="30dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/button_level"
+            android:onClick="onClick"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:text="@string/level_c1"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonLevelC1Block"
+            android:layout_width="@dimen/size_levelbutton"
+            android:layout_height="@dimen/size_levelbutton"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dp"
+            android:layout_marginStart="30dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/button_level_block"
+            android:onClick="onClick"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonLevelC2"
+            android:layout_width="@dimen/size_levelbutton"
+            android:layout_height="@dimen/size_levelbutton"
+            android:layout_alignTop="@+id/buttonLevelC1"
+            android:layout_marginStart="90dp"
+            android:layout_toEndOf="@+id/buttonLevelC1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/button_level"
+            android:onClick="onClick"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:text="@string/level_c2"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonLevelC2Block"
+            android:layout_width="@dimen/size_levelbutton"
+            android:layout_height="@dimen/size_levelbutton"
+            android:layout_alignTop="@+id/buttonLevelC1"
+            android:layout_marginStart="90dp"
+            android:layout_toEndOf="@+id/buttonLevelC1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/button_level_block"
+            android:onClick="onClick"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonLevelB1"
+            android:layout_width="@dimen/size_levelbutton"
+            android:layout_height="@dimen/size_levelbutton"
+            android:layout_alignStart="@+id/buttonLevelC1"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/button_level"
+            android:onClick="onClick"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:text="@string/level_b1"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonLevelB1Block"
+            android:layout_width="@dimen/size_levelbutton"
+            android:layout_height="@dimen/size_levelbutton"
+            android:layout_alignStart="@+id/buttonLevelC1"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/button_level_block"
+            android:onClick="onClick"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonLevelB2"
+            android:layout_width="@dimen/size_levelbutton"
+            android:layout_height="@dimen/size_levelbutton"
+            android:layout_alignStart="@+id/buttonLevelC2"
+            android:layout_alignTop="@+id/buttonLevelB1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/button_level"
+            android:onClick="onClick"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:text="@string/level_b2"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonLevelB2Block"
+            android:layout_width="@dimen/size_levelbutton"
+            android:layout_height="@dimen/size_levelbutton"
+            android:layout_alignStart="@+id/buttonLevelC2"
+            android:layout_alignTop="@+id/buttonLevelB1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/button_level_block"
+            android:onClick="onClick"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonLevelA1"
+            android:layout_width="@dimen/size_levelbutton"
+            android:layout_height="@dimen/size_levelbutton"
+            android:layout_alignStart="@+id/buttonLevelB1"
+            android:layout_below="@+id/lblLevel"
+            android:layout_marginTop="40dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/button_level"
+            android:onClick="onClick"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:text="@string/level_a1"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonLevelA2"
+            android:layout_width="@dimen/size_levelbutton"
+            android:layout_height="@dimen/size_levelbutton"
+            android:layout_alignStart="@+id/buttonLevelB2"
+            android:layout_alignTop="@+id/buttonLevelA1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/button_level"
+            android:onClick="onClick"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:text="@string/level_a2"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/buttonLevelA2Block"
+            android:layout_width="@dimen/size_levelbutton"
+            android:layout_height="@dimen/size_levelbutton"
+            android:layout_alignStart="@+id/buttonLevelB2"
+            android:layout_alignTop="@+id/buttonLevelA1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/button_level_block"
+            android:onClick="onClick"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/div_upgrade_miss"
+        android:layout_width="@dimen/tipBox_width"
+        android:layout_height="@dimen/tipBox_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shadow_message_miss"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/title_upgrade_miss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/tipBox_margin"
+            android:text="@string/title_upgrade_fail"
+            android:textColor="@color/miss"
+            android:textSize="@dimen/textsize_item_L"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_upgrade_miss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_upgrade_miss"
+            android:layout_marginStart="@dimen/tipBox_margin"
+            android:text="@string/text_upgrade_fail"
+            android:textColor="@color/text_miss"
+            android:textSize="@dimen/textsize_item" />
+
+        <Button
+            android:id="@+id/button_close_miss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/tipBox_margin"
+            android:background="@drawable/shadow_button_message"
+            android:text="@string/button_upgrade_close" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/div_upgrade_ok"
+        android:layout_width="@dimen/tipBox_width"
+        android:layout_height="@dimen/tipBox_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shadow_message_success"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/title_upgrade_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/tipBox_margin"
+            android:text="@string/title_upgrade_success"
+            android:textColor="@color/success"
+            android:textSize="@dimen/textsize_item_L"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_upgrade_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_upgrade_ok"
+            android:layout_marginStart="@dimen/tipBox_margin"
+            android:text="@string/text_upgrade_success"
+            android:textColor="@color/text_success"
+            android:textSize="@dimen/textsize_item" />
+
+        <Button
+            android:id="@+id/button_close_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/tipBox_margin"
+            android:background="@drawable/shadow_button_message"
+            android:text="@string/button_upgrade_close" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

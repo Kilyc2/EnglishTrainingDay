@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Diseño de los children -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/item_bg"
+    android:paddingBottom="@dimen/childrenItem_vertical_margin"
+    android:paddingLeft="@dimen/childrenItem_horizontal_margin"
+    android:paddingRight="@dimen/childrenItem_horizontal_margin"
+    android:paddingTop="@dimen/childrenItem_vertical_margin">
+
+    <TextView
+        android:id="@+id/childrenItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="@dimen/size_item"
+        android:gravity="center_vertical"
+        android:textColor="@color/item_color"
+        android:textSize="@dimen/textsize_item" />
+
+</RelativeLayout>

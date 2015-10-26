@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- item para la lista de puntuaciones -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/item_score_bg"
+    android:paddingBottom="@dimen/groupItem_vertical_margin"
+    android:paddingLeft="@dimen/groupItem_horizontal_margin"
+    android:paddingRight="@dimen/groupItem_horizontal_margin"
+    android:paddingTop="@dimen/groupItem_vertical_margin">
+
+    <TextView
+        android:id="@+id/lesson_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Lesson 1"
+        android:textSize="@dimen/textsize_item_L" />
+
+    <TextView
+        android:id="@+id/detail_score_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lesson_text"
+        android:text="Done: 10 - Correct: 10"
+        android:textSize="@dimen/textsize_item" />
+
+    <TextView
+        android:id="@+id/score_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:text="100"
+        android:textSize="@dimen/textsize_item_L" />
+
+</RelativeLayout>

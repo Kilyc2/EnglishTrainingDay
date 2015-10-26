@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Formato de lista que tiene el menu lateral, es un expandableListView para que
+ tenga grupos de items con sus children -->
+<ExpandableListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navigation_drawer_bg"
+    android:childIndicatorEnd="@android:color/black"
+    android:choiceMode="singleChoice"
+    android:divider="@android:color/transparent"
+    android:dividerHeight="1dp"
+    tools:context=".NavigationDrawerFragment" />

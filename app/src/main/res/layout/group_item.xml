@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Formato de los group de la lista -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/groupItem_vertical_margin"
+    android:paddingLeft="@dimen/groupItem_horizontal_margin"
+    android:paddingRight="@dimen/groupItem_horizontal_margin"
+    android:paddingTop="@dimen/groupItem_vertical_margin">
+
+    <CheckedTextView
+        android:id="@+id/groupItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="@dimen/size_item"
+        android:focusable="false"
+        android:gravity="center_vertical"
+        android:textColor="@color/navigation_drawer_text"
+        android:textSize="@dimen/textsize_item" />
+
+</RelativeLayout>

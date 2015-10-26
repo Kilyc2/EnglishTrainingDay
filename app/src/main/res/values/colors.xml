@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="UK_flag_blue">#003399</color>
+    <color name="UK_flag_red">#CC0000</color>
+
+    <color name="navigation_drawer_bg">#BBBBBB</color>
+    <color name="navigation_drawer_text">#000000</color>
+    <color name="children_press_bg">#CC0000</color>
+    <color name="children_selected_bg">#33B5E5</color>
+    <color name="children_bg">#FFFFFF</color>
+
+    <color name="button_exercise_bg">#CC0000</color>
+    <color name="button_exercise_border">#9F2200</color>
+
+    <color name="button_mark_bg">#33B5E5</color>
+    <color name="button_mark_border">#0077FF</color>
+
+    <color name="button_text">#FFFFFF</color>
+
+    <color name="exercise_success_bg">#33B5E5</color>
+    <color name="success">#003399</color>
+    <color name="text_success">#000000</color>
+
+    <color name="exercise_miss_bg">#AA0000</color>
+    <color name="miss">#BBBBBB</color>
+    <color name="text_miss">#FFFFFF</color>
+
+    <color name="button_message_background_start">#DDDDDD</color>
+    <color name="button_message_background_end">#999999</color>
+
+    <color name="shadow">#66000000</color>
+
+    <color name="exercises_done_bg">#00B6FF</color>
+
+    <color name="shadow_block_level_button">#99333333</color>
+
+    <color name="actionbar_color">#003399</color>
+    <color name="tab_bar_background">#333333</color>
+    <color name="tab_bar_text">#FFFFFF</color>
+
+</resources>

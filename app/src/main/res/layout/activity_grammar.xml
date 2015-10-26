@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Activity principal -->
+
+<!-- Contenerdor principal -->
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    tools:context=".GrammarActivity">
+
+    <!-- La parte de la gramatica -->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager_grammar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/InnerRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/activity_horizontal_margin">
+
+        <ImageButton
+            android:id="@+id/button_exercise"
+            android:layout_width="@dimen/button_round_size"
+            android:layout_height="@dimen/button_round_size"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/shadow_button_exercises"
+            android:padding="5dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_action_exercise"
+            android:textColor="@color/button_text"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <!-- Lista del menu lateral, usa expandable_list para pintarse -->
+    <ExpandableListView
+        android:id="@+id/left_drawer"
+        android:layout_width="@dimen/navigation_drawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/navigation_drawer_bg"
+        android:childIndicatorEnd="@android:color/black"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="1dp" />
+
+</android.support.v4.widget.DrawerLayout>
